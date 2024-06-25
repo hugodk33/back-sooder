@@ -1,0 +1,66 @@
+# Arquivos de compilação e dependências
+/build/
+/node_modules/
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+.DS_Store
+
+# Arquivos de configuração
+.env
+config.js
+
+# Arquivos de chaves e senhas
+*.key
+*.pem
+*.p12
+secrets.json
+
+# Arquivos de caches e dados gerados
+.cache/
+dist/
+*.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de build
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de IDE e editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de documentação gerada
+doc/
+*.html
+/site
+
+# Arquivos específicos de linguagem
+*.pyc
+*.class
+*.jar
+
+# Arquivos de imagem e vídeo
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.mp4
+*.avi

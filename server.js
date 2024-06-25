@@ -19,6 +19,30 @@
 
 const { Ignitor } = require('@adonisjs/ignitor')
 
+
+new Ignitor(require('@adonisjs/fold'))
+  .appRoot(__dirname)
+  .fireHttpServer()
+  .catch(console.error)
+
+  // var mysql      = require('mysql');
+
+  // var connection = mysql.createConnection({
+  //   host     : 'dbgdd.ckmybjalsxpd.sa-east-1.rds.amazonaws.com',
+  //   user     : 'admin',
+  //   password : '1w2q3r4e',
+  //   database : 'gdddb'
+  // });
+  
+  // connection.connect();
+   
+  // connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+  //   if (error) throw error;
+  //   console.log('The solution is: ', results[0].solution);
+  // });
+   
+  // connection.end();
+
 // var mysql      = require('mysql');
 
 // var connection = mysql.createConnection({
@@ -36,28 +60,3 @@ const { Ignitor } = require('@adonisjs/ignitor')
 // });
  
 //connection.end();
-
-new Ignitor(require('@adonisjs/fold'))
-  .appRoot(__dirname)
-  .fireHttpServer()
-  .catch(console.error)
-
-
-
-var mysql      = require('mysql');
-
-var connection = mysql.createConnection({
-  host     : 'containers-us-west-203.railway.app',
-  user     : 'root',
-  password : 'x3AJegMGNOBJo4yQGuyW',
-  database : 'railway'
-});
-
-connection.connect();
- 
-connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
-  if (error) throw error;
-  console.log('The solution is: ', results[0].solution);
-});
- 
-connection.end();
